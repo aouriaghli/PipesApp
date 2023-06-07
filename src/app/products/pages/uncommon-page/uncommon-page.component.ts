@@ -33,4 +33,11 @@ export class UncommonPageComponent {
       //this.clients.pop();
       this.clients.shift();
     }
+
+    //KeyValue Pipe
+    public person= {
+      name: 'Ayoub',
+      age: '39',
+      address: 'Valencia',
+    }
 }
